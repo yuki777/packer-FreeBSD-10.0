@@ -19,6 +19,7 @@ pkg install -y sudo
 pkg install -y bash
 pkg install -y curl
 pkg install -y ca_root_nss
+pkg install -y python # for ansible
 
 ln -sf /usr/local/share/certs/ca-root-nss.crt /etc/ssl/cert.pem
 
